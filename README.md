@@ -16,6 +16,7 @@ Difficult Way:
 
 ```bash
 git clone https://github.com/zRattly/NodeTGBot.git
+cd NodeTGBot
 npm i --s
 node server.js
 ```
