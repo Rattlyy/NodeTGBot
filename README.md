@@ -1,6 +1,6 @@
 # NodeTGBot [![Bot API Version](https://img.shields.io/badge/Bot%20API-v4.3-f36caf.svg?style=flat-square)](https://core.telegram.org/bots/api) ![Version](https://img.shields.io/badge/version-v1.0.0-orange.svg)
 
-Simple Node Telegram Bot base
+Simple Node Telegram Bot base -- <b>NOW SUPPORTING KEYBOARDS</b>
 
 ## Tutorial
  
