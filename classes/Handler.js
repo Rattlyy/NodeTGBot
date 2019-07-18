@@ -1,8 +1,8 @@
 
 module.exports = class Handler {
   constructor(update) {
+    this.update = update;
     if (typeof update.message !== 'undefined') {
-      this.update = update;
       
       this.userID = update.message.from.id;
       this.msg = update.message.text;
@@ -18,7 +18,7 @@ module.exports = class Handler {
     } else if (typeof update.callback_query !== 'undefined') {
       this.cbid = update.callback_query.id;
       this.cbdata = update.callback_query.data;
-      this.cbmid = update.callback_query.message.id;
+      this.cbmid = update.callback_query.message.message_id;
       this.chatID = update.callback_query.message.chat.id;
       this.userID = update.callback_query.from.id;
       this.name = update.callback_query.from.first_name;
