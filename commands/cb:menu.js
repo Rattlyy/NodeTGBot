@@ -1,7 +1,6 @@
 exports.run = (update, client) => {
     var opts = {
         parse_mode: "HTML",
-        hide_keyboard: true,
         reply_markup: JSON.stringify({
             inline_keyboard: [
                 [{
@@ -20,5 +19,9 @@ exports.run = (update, client) => {
             ]
         })
     };
-    client.sendMessage(update.chatID, 'This bot was made in <b>Node.JS</b> with <b>NodeTGBot</b>\n\nAuthor: @Rattly', opts);
+  client.editMessageText(update.chatID, update.cbmid, "This bot was made in <b>Node.JS</b> with <b>NodeTGBot</b>\n\nAuthor: @Rattly", opts)
 }
+  
+  
+  
+  
