@@ -42,4 +42,4 @@ A small script is inserted for handling updates better and having a cleaner code
 
 ## Support
 
-[@Rattly](t.me/Rattly)
+[@Rattly](https://t.me/Rattly)
